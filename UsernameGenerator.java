@@ -14,7 +14,7 @@ public class UsernameGenerator {
         String lastName = scanner.nextLine();
 
         // Generate username
-        String username = firstName.substring(0, 1) + lastName.substring(0, 5) + random.nextInt(99) + 10;
+        String username = firstName.substring(0, 1) + lastName.substring(0, 5) + random.nextInt(90) + 10;
 
         // Print the generated username
         System.out.println("Your username is: " + username);
